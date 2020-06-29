@@ -1,1 +1,1 @@
-# JakartaEE
+# JakartaEE.
