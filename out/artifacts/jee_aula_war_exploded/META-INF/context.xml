@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Context>
+	
+	<Resource 
+		auth="Container" name="jdbc/sistema" 
+		initialSize="2" maxTotal="2" maxIdle="2" minIdle="2" maxWaitMillis="1000"
+		type="javax.sql.DataSource" 
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://127.0.0.1:3306/jakartaee?useTimezone=true&amp;serverTimezone=UTC&amp;autoReconnect=true&amp;useSSL=false"
+		username="root"
+		password="3885"
+		closeMethod="close" 
+		validationQuery="SELECT 1"
+	/>
+	
+</Context>
