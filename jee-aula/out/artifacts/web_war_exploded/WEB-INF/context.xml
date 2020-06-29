@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<Context>
+	
+	<Resource 
+		auth="Container" name="jdbc/sistema" 
+		initialSize="2" maxTotal="2" maxIdle="2" minIdle="2" maxWaitMillis="1000"
+		type="javax.sql.DataSource" 
+		driverClassName="org.hsqldb.jdbcDriver" 
+		url="jdbc:hsqldb:file:D:\UniprimeWorkspaceIntelliJ\JakartaEE\hypersql\base\;shutdown=true"
+		username="SA" 
+		password="1234" 
+		closeMethod="close" 
+		validationQuery="select 1 from INFORMATION_SCHEMA.SYSTEM_USERS"
+	/>
+	
+</Context>
