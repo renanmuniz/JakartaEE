@@ -3,7 +3,7 @@
 	
 	<Resource 
 		auth="Container" name="jdbc/sistema" 
-		initialSize="3" maxTotal="3" maxIdle="3" minIdle="3" maxWaitMillis="-1"
+		initialSize="1" maxTotal="1" maxIdle="1" minIdle="1" maxWaitMillis="10000"
 		type="javax.sql.DataSource" 
 		driverClassName="com.mysql.cj.jdbc.Driver"
 		url="jdbc:mysql://127.0.0.1:3306/jakartaee?useTimezone=true&amp;serverTimezone=UTC&amp;autoReconnect=true&amp;useSSL=false"
